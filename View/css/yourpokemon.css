@@ -1,0 +1,84 @@
+#container label {
+    margin-bottom: 1vh;
+}
+
+#container {
+    width: 58vw;
+    background-color: #F4F4F4;
+    color: #09203B;
+    font-size: 2vh;
+    border-radius: 15px;
+    margin-top: 1.5vh;
+    margin-bottom: 6vh;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#container input {
+    background-color: white;
+}
+
+#link-edit {
+    color: #154A86;
+    font-size: 2.5vh;
+    float: right;
+}
+
+#img-edit {
+    height: 2vh;
+    margin-left: 0.5vw;
+}
+
+#header-pokemon {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-bulbassaur {
+    width: 10vw;
+    background-color: white;
+    border-radius: 6px;
+    padding: 1vw;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.15);
+}
+
+#form-main {
+    padding-left: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-main label{
+    font-size: 2.5vh;
+}
+
+#input-name {
+    width: 20vw;
+}
+
+#input-description {
+    width: 42vw;
+    height: 15vh;
+    border-radius: 8px;
+}
+
+#form-propriety {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#form-propriety input {
+    width: 9vw;
+}
+
+#form-propriety label {
+    margin-top: 2vw;
+}
+
+.card-propriety {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1vw;
+}

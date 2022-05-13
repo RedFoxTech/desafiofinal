@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    font-family: roboto, sans-serif;
+    background-color: #09203B;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 7vh;
+    width: 30vw;
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+}
+
+button {
+    background-color: #154A86;
+    height: 7vh;
+    width: 30vw;
+    border-radius: 60px;
+    border: none;
+    margin: 4vh;
+    color: white;
+    font-size: 3vh;    
+}
+
+label {
+    text-align: left;
+    color: white;
+    align-self: flex-start;
+    padding: 1vh 0 1vh 10vw;
+}
+
+#login {
+    width: 48vw;
+    height: 100vh;
+    background-color: #BD2C25;
+    padding-top: 3vh;
+}
+
+#division {
+    width: 2vw;
+    height: 100vh;
+    background-color: #09203B;
+    display: flex;
+    align-items: center;
+}
+
+#img-charmander {
+    width: 50vw;
+    background-image: url(../image/charmander.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-pokemon {
+    width: 25vw;
+}
+
+#img-fox {
+    width: 10vw;
+    margin-bottom: 5vh;
+}
+
+#img-c {
+    width: 7vw;
+    position: relative;
+    right: 3vw;
+}
+
+#link-home {
+    align-self: flex-start;
+    padding-left: 10vw;
+    color: white;
+    margin: 2vh 0;
+}
+
+#img-seta {
+    height: 1.8vh;
+    padding-right: 0.5vw;
+}

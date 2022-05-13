@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../function.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/xrx3fet.css">
+    <link rel="stylesheet" href="../css/pokedex.css">
+    <title>Meus pokémons</title>
+</head>
+<body>
+    <div id="menu">
+        <div id="image">
+            <img src="../image/pokemon.png" id="img-pokemon">
+            <img src="../image/fox.png" id="img-fox">
+        </div>
+        <nav>
+            <a href="./pokedexcards.html" class="link-nav">Todos os pokémons</a>
+            <a href="./mylistcards.html" class="link-nav">Minhas listas</a>
+            <a class="link-nav" id="selected">Meus pokémons</a>
+            <a class="link-nav">Criar nova lista</a>
+            <a class="link-nav">Criar novo pokémon</a>
+        </nav>
+        <a href="./login.html" class="link-nav" id="link-home"><img src="../image/seta02.png" id="img-seta">Sair</a>
+    </div>
+    <main>
+        <div>
+            <h1>MEUS POKÉMONS</h1>
+            <input placeholder="Buscar por nome do pokémon">
+            <button id="btn-buscar" onclick="window.open('./searchcards.html')">Buscar</button>
+            <div id="filter">
+                <a href="./mypokemonlist.html" class="link-filter">
+                    <img src="../image/lista.png" class="img-filter"/>Visão por lista
+                </a>
+                <button class="link-filter" onclick="openModal01()">
+                    <img src="../image/filtro.png" class="img-filter"/>Filtro avançado
+                </button>
+            </div>
+        </div>
+        <div id="cardlist">
+            <a href="./yourpokemon.html">
+                <div class="card">
+                    <img src="../image/favorito.png" id="img-favorite">
+                    <img src="../image/bulbassauro.png" id="img-bulbasaur">
+                    <div id="card-stats">
+                        <h2>Bulbasaur</h2>
+                        <div class="stat">
+                            <h3>ATK</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>DEF</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>STA</h3>
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="./yourpokemon.html">
+                <div class="card">
+                    <img src="../image/favorito.png" id="img-favorite">
+                    <img src="../image/bulbassauro.png" id="img-bulbasaur">
+                    <div id="card-stats">
+                        <h2>Bulbasaur</h2>
+                        <div class="stat">
+                            <h3>ATK</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>DEF</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>STA</h3>
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="./yourpokemon.html">
+                <div class="card">
+                    <img src="../image/favorito.png" id="img-favorite">
+                    <img src="../image/bulbassauro.png" id="img-bulbasaur">
+                    <div id="card-stats">
+                        <h2>Bulbasaur</h2>
+                        <div class="stat">
+                            <h3>ATK</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>DEF</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>STA</h3>
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="./yourpokemon.html">
+                <div class="card">
+                    <img src="../image/favorito.png" id="img-favorite">
+                    <img src="../image/bulbassauro.png" id="img-bulbasaur">
+                    <div id="card-stats">
+                        <h2>Bulbasaur</h2>
+                        <div class="stat">
+                            <h3>ATK</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>DEF</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>STA</h3>
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="./yourpokemon.html">
+                <div class="card">
+                    <img src="../image/favorito.png" id="img-favorite">
+                    <img src="../image/bulbassauro.png" id="img-bulbasaur">
+                    <div id="card-stats">
+                        <h2>Bulbasaur</h2>
+                        <div class="stat">
+                            <h3>ATK</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>DEF</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>STA</h3>
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="./yourpokemon.html">
+                <div class="card">
+                    <img src="../image/favorito.png" id="img-favorite">
+                    <img src="../image/bulbassauro.png" id="img-bulbasaur">
+                    <div id="card-stats">
+                        <h2>Bulbasaur</h2>
+                        <div class="stat">
+                            <h3>ATK</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>DEF</h3>
+                            <p>100</p>
+                        </div>
+                        <div class="stat">
+                            <h3>STA</h3>
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <form id="modal01">
+        <p>Filtrar por:</p>
+        <div id="input-filter">
+            <div>
+                <label>Tipo</label>
+                <select>
+                    <option>Water</option>
+                    <option>Grass</option>
+                    <option>Fire</option>
+                </select>
+            </div>
+            <div>
+                <label>Geração</label>
+                <input type="number" min="1" max="7">
+            </div>
+            <div>
+                <label>Evolução</label>
+                <input type="number" min="0" max="3">
+            </div>
+            <div>
+                <label>Lendário</label>
+                <input type="number" min="0" max="2">
+            </div>
+        </div>
+        <button id="btn-filter">Filtrar</button>
+    </form>
+</body>
+</html>

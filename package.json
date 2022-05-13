@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "mongodb": "^4.5.0"
+  },
+  "name": "desafiofinal",
+  "version": "1.0.0",
+  "description": "Desafio final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isabella Ramos Carvalho",
+  "license": "ISC"
+}

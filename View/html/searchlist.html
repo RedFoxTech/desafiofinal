@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../function.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/xrx3fet.css">
+    <link rel="stylesheet" href="../css/pokedex.css">
+    <title>Resultados para a busca</title>
+</head>
+<body>
+    <div id="menu">
+        <div id="image">
+            <img src="../image/pokemon.png" id="img-pokemon">
+            <img src="../image/fox.png" id="img-fox">
+        </div>
+        <nav>
+            <a href="./pokedexlist.html" class="link-nav" id="selected">Todos os pokémons</a>
+            <a href="./mylistlist.html" class="link-nav">Minhas listas</a>
+            <a href="./mypokemonlist.html" class="link-nav">Meus pokémons</a>
+            <a class="link-nav">Criar nova lista</a>
+            <a class="link-nav">Criar novo pokémon</a>
+        </nav>
+        <a href="./login.html" class="link-nav" id="link-home"><img src="../image/seta02.png" id="img-seta">Sair</a>
+    </div>
+    <main>
+        <div>
+            <h1>RESULTADOS PARA A BUSCA</h1>
+            <input placeholder="Buscar por nome do pokémon">
+            <button id="btn-buscar">Buscar</button>
+            <div id="filter">
+                <a href="./searchcards.html" class="link-filter">
+                    <img src="../image/card.png" class="img-filter"/> Visão por cards
+                </a>
+                <button class="link-filter" onclick="openModal01()">
+                    <img src="../image/filtro.png" class="img-filter"/>Filtro avançado
+                </button>
+            </div>
+        </div>
+        <div></div>
+    </main>
+    <form id="modal01">
+        <p>Filtrar por:</p>
+        <div id="input-filter">
+            <div>
+                <label>Tipo</label>
+                <select>
+                    <option>Water</option>
+                    <option>Grass</option>
+                    <option>Fire</option>
+                </select>
+            </div>
+            <div>
+                <label>Geração</label>
+                <input type="number" min="1" max="7">
+            </div>
+            <div>
+                <label>Evolução</label>
+                <input type="number" min="0" max="3">
+            </div>
+            <div>
+                <label>Lendário</label>
+                <input type="number" min="0" max="2">
+            </div>
+        </div>
+        <button id="btn-filter">Filtrar</button>
+    </form>
+</body>
+</html>

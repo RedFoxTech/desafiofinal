@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../function.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/xrx3fet.css">
+    <link rel="stylesheet" href="../css/pokedex.css">
+    <link rel="stylesheet" href="../css/edityourpokemon.css">
+    <title>Seu pokémon</title>
+</head>
+<body>
+    <div id="menu">
+        <div id="image">
+            <img src="../image/pokemon.png" id="img-pokemon">
+            <img src="../image/fox.png" id="img-fox">
+        </div>
+        <nav>
+            <a class="link-nav" id="selected">Todos os pokémons</a>
+            <a href="./mylistcards.html" class="link-nav">Minhas listas</a>
+            <a href="./mypokemoncard.html" class="link-nav">Meus pokémons</a>
+            <a class="link-nav">Criar nova lista</a>
+            <a class="link-nav">Criar novo pokémon</a>
+        </nav>
+        <a href="./login.html" class="link-nav" id="link-home"><img src="../image/seta02.png" id="img-seta">Sair</a>
+    </div>
+    <main>
+        <div>
+            <h1>SEU POKÉMON</h1>
+            <input placeholder="Buscar por nome do pokémon">
+            <button id="btn-buscar" onclick="window.open('./searchcards.html')">Buscar</button>
+            <div id="filter">
+                <a href="./mylistcards.html" id="link-list">
+                    <img src="../image/seta03.png" class="img-filter"/>Lista geral
+                </a>
+            </div>
+        </div>
+        <div id="container">
+            <div id="header-pokemon">
+                <div id="pokemon">
+                    <div id="img">
+                        <img src="../image/bulbassauro.png" id="img-bulbassaur">
+                        <a href="" id="img-edit"><img src="../image/editar.png"></a>
+                    </div>
+                    <form>
+                        <label>Nome do pokémon</label>
+                        <input id="input-name">
+                    </form>
+                </div>
+                <form>
+                    <label>Descrição do pokémon</label>
+                    <input id="input-description">
+                </form>
+            </div>
+            <form id="form-propriety">
+                <div class="card-propriety">
+                    <label>Pokedex number</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Img name</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Evolution stage</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Evolved</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>FamilyID</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Cross Gen</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Type 1</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Type 2</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Weather 1</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Weather 2</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Stat Total</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>ATK</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>DEF</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>STA</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Legendary</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Aquiareable</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Spawns</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Regional</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Raidable</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Hatchable</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Shiny</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Nest</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Not-gettable</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>Future evolve</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>100% CP@40</label>
+                    <input>
+                </div>
+                <div class="card-propriety">
+                    <label>100% CP@39</label>
+                    <input>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
